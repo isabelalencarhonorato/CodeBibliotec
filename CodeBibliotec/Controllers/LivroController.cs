@@ -78,7 +78,7 @@ namespace CodeBibliotec.Controllers
                 return StatusCode(500, new { mensagem = "Erro ao cadastrar o livro", erro = ex.Message });
             }
 
-        }
+        }//GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 
         [HttpPut("{id}")]
         public async Task<IActionResult> AtualizarLivro(int id, LivroViewModel livroViewModel)
